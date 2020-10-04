@@ -1,4 +1,4 @@
-# wdio-mocha-boilerplate
+# wdio-mocha-appium
 This is a webdriverIO framework project for Test Automation: 
 * Using babel compiler 
 * Capabilities for chromedriver, safaridriver 
