@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:chrome": "node_modules/.bin/wdio wdio.conf.js",
-    "test:safari": "node_modules/.bin/wdio wdio.ios.conf.js"
+    "test:chrome": "node_modules/.bin/wdio config/wdio.conf.js",
+    "test:ios": "node_modules/.bin/wdio config/wdio.ios.conf.js",
+    "test:safari": "node_modules/.bin/wdio config/wdio.safari.conf.js"
   },
   "type": "module",
   "keywords": [],

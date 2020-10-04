@@ -1,5 +1,6 @@
 const {config} = require('./wdio.conf');
 delete config.capabilities;
+delete config.services;
 
 exports.config = {
     ...config,
@@ -11,7 +12,6 @@ exports.config = {
          * https://developer.apple.com/documentation/webkit/about_webdriver_for_safari
          */
         browserName: 'safari',
-        platformName: 'ios',
         maxInstances: 1,
 
     }],
