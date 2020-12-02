@@ -8,7 +8,6 @@
     "test:ios": "node_modules/.bin/wdio config/wdio.ios.conf.js",
     "test:safari": "node_modules/.bin/wdio config/wdio.safari.conf.js"
   },
-  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
